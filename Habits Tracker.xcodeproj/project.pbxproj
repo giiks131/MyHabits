@@ -7,15 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F25B133427C95F6C00DE6F22 /* Habits_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25B133327C95F6C00DE6F22 /* Habits_TrackerTests.swift */; };
+		F262D57B27B5A85E007466BF /* HabitDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262D57A27B5A85E007466BF /* HabitDetailsViewController.swift */; };
+		F262D57D27B684E0007466BF /* HabitDetailsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262D57C27B684E0007466BF /* HabitDetailsViewCell.swift */; };
+		F268BD5327AD917800049D54 /* HabitsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F268BD5227AD917800049D54 /* HabitsStore.swift */; };
+		F268BD5527ADBA7200049D54 /* ProgressCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F268BD5427ADBA7200049D54 /* ProgressCollectionViewCell.swift */; };
+		F268BD5727ADBA8400049D54 /* HabitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F268BD5627ADBA8400049D54 /* HabitCollectionViewCell.swift */; };
 		F26F294A27A48B54003240CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F294927A48B54003240CC /* AppDelegate.swift */; };
 		F26F294C27A48B54003240CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F294B27A48B54003240CC /* SceneDelegate.swift */; };
 		F26F294E27A48B54003240CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F294D27A48B54003240CC /* ViewController.swift */; };
 		F26F295127A48B54003240CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26F294F27A48B54003240CC /* Main.storyboard */; };
 		F26F295327A48B55003240CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26F295227A48B55003240CC /* Assets.xcassets */; };
 		F26F295627A48B55003240CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26F295427A48B55003240CC /* LaunchScreen.storyboard */; };
+		F26F295E27A48BFB003240CC /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F295D27A48BFB003240CC /* HabitsViewController.swift */; };
+		F26F296027A48C74003240CC /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F295F27A48C74003240CC /* InfoViewController.swift */; };
+		F26F296327A5DE3C003240CC /* HabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F296227A5DE3C003240CC /* HabitViewController.swift */; };
+		F28D2B2C27B5A25D0015585E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D2B2B27B5A25C0015585E /* Extensions.swift */; };
+		F29D3EC227B43DFB0061D278 /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D3EC127B43DFB0061D278 /* TestFile.swift */; };
+		F2FB0BD827B2FA5B00D54907 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2FB0BD527B2FA5B00D54907 /* SF-Pro-Text-Semibold.otf */; };
+		F2FB0BD927B2FA5B00D54907 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2FB0BD627B2FA5B00D54907 /* SF-Pro-Text-Regular.otf */; };
+		F2FB0BDA27B2FA5B00D54907 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2FB0BD727B2FA5B00D54907 /* SF-Pro-Display-Semibold.otf */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F25B133527C95F6C00DE6F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F26F293E27A48B53003240CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26F294527A48B54003240CC;
+			remoteInfo = "Habits Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		F21A333B27CE82A600216D46 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		F21A333C27CE82A600216D46 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F25B133127C95F6B00DE6F22 /* Habits TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habits TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25B133327C95F6C00DE6F22 /* Habits_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habits_TrackerTests.swift; sourceTree = "<group>"; };
+		F262D57A27B5A85E007466BF /* HabitDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailsViewController.swift; sourceTree = "<group>"; };
+		F262D57C27B684E0007466BF /* HabitDetailsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailsViewCell.swift; sourceTree = "<group>"; };
+		F268BD5227AD917800049D54 /* HabitsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsStore.swift; sourceTree = "<group>"; };
+		F268BD5427ADBA7200049D54 /* ProgressCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCollectionViewCell.swift; sourceTree = "<group>"; };
+		F268BD5627ADBA8400049D54 /* HabitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCollectionViewCell.swift; sourceTree = "<group>"; };
 		F26F294627A48B54003240CC /* Habits Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habits Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26F294927A48B54003240CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F26F294B27A48B54003240CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,9 +57,24 @@
 		F26F295227A48B55003240CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F26F295527A48B55003240CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F26F295727A48B55003240CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26F295D27A48BFB003240CC /* HabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewController.swift; sourceTree = "<group>"; };
+		F26F295F27A48C74003240CC /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		F26F296227A5DE3C003240CC /* HabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewController.swift; sourceTree = "<group>"; };
+		F28D2B2B27B5A25C0015585E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F29D3EC127B43DFB0061D278 /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
+		F2FB0BD527B2FA5B00D54907 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		F2FB0BD627B2FA5B00D54907 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		F2FB0BD727B2FA5B00D54907 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F25B132E27C95F6B00DE6F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F26F294327A48B54003240CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +85,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F25B133227C95F6C00DE6F22 /* Habits TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F25B133327C95F6C00DE6F22 /* Habits_TrackerTests.swift */,
+			);
+			path = "Habits TrackerTests";
+			sourceTree = "<group>";
+		};
+		F268BD5827ADBA9500049D54 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F268BD5627ADBA8400049D54 /* HabitCollectionViewCell.swift */,
+				F268BD5427ADBA7200049D54 /* ProgressCollectionViewCell.swift */,
+				F262D57C27B684E0007466BF /* HabitDetailsViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		F26F293D27A48B53003240CC = {
 			isa = PBXGroup;
 			children = (
 				F26F294827A48B54003240CC /* Habits Tracker */,
+				F25B133227C95F6C00DE6F22 /* Habits TrackerTests */,
 				F26F294727A48B54003240CC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				F26F294627A48B54003240CC /* Habits Tracker.app */,
+				F25B133127C95F6B00DE6F22 /* Habits TrackerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,18 +126,63 @@
 			children = (
 				F26F294927A48B54003240CC /* AppDelegate.swift */,
 				F26F294B27A48B54003240CC /* SceneDelegate.swift */,
-				F26F294D27A48B54003240CC /* ViewController.swift */,
+				F26F296127A48DA2003240CC /* Controllers */,
+				F268BD5227AD917800049D54 /* HabitsStore.swift */,
 				F26F294F27A48B54003240CC /* Main.storyboard */,
 				F26F295227A48B55003240CC /* Assets.xcassets */,
 				F26F295427A48B55003240CC /* LaunchScreen.storyboard */,
+				F2FB0BCE27B2F99A00D54907 /* Fonts */,
 				F26F295727A48B55003240CC /* Info.plist */,
 			);
 			path = "Habits Tracker";
 			sourceTree = "<group>";
 		};
+		F26F296127A48DA2003240CC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F26F294D27A48B54003240CC /* ViewController.swift */,
+				F26F295D27A48BFB003240CC /* HabitsViewController.swift */,
+				F26F296227A5DE3C003240CC /* HabitViewController.swift */,
+				F262D57A27B5A85E007466BF /* HabitDetailsViewController.swift */,
+				F26F295F27A48C74003240CC /* InfoViewController.swift */,
+				F268BD5827ADBA9500049D54 /* Cells */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F2FB0BCE27B2F99A00D54907 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F29D3EC127B43DFB0061D278 /* TestFile.swift */,
+				F28D2B2B27B5A25C0015585E /* Extensions.swift */,
+				F2FB0BD727B2FA5B00D54907 /* SF-Pro-Display-Semibold.otf */,
+				F2FB0BD627B2FA5B00D54907 /* SF-Pro-Text-Regular.otf */,
+				F2FB0BD527B2FA5B00D54907 /* SF-Pro-Text-Semibold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F25B133027C95F6B00DE6F22 /* Habits TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25B133927C95F6C00DE6F22 /* Build configuration list for PBXNativeTarget "Habits TrackerTests" */;
+			buildPhases = (
+				F25B132D27C95F6B00DE6F22 /* Sources */,
+				F25B132E27C95F6B00DE6F22 /* Frameworks */,
+				F25B132F27C95F6B00DE6F22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25B133627C95F6C00DE6F22 /* PBXTargetDependency */,
+			);
+			name = "Habits TrackerTests";
+			productName = "Habits TrackerTests";
+			productReference = F25B133127C95F6B00DE6F22 /* Habits TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F26F294527A48B54003240CC /* Habits Tracker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F26F295A27A48B55003240CC /* Build configuration list for PBXNativeTarget "Habits Tracker" */;
@@ -97,6 +210,10 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					F25B133027C95F6B00DE6F22 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = F26F294527A48B54003240CC;
+					};
 					F26F294527A48B54003240CC = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -109,6 +226,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = F26F293D27A48B53003240CC;
 			productRefGroup = F26F294727A48B54003240CC /* Products */;
@@ -116,15 +234,26 @@
 			projectRoot = "";
 			targets = (
 				F26F294527A48B54003240CC /* Habits Tracker */,
+				F25B133027C95F6B00DE6F22 /* Habits TrackerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F25B132F27C95F6B00DE6F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F26F294427A48B54003240CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2FB0BDA27B2FA5B00D54907 /* SF-Pro-Display-Semibold.otf in Resources */,
+				F2FB0BD827B2FA5B00D54907 /* SF-Pro-Text-Semibold.otf in Resources */,
+				F2FB0BD927B2FA5B00D54907 /* SF-Pro-Text-Regular.otf in Resources */,
 				F26F295627A48B55003240CC /* LaunchScreen.storyboard in Resources */,
 				F26F295327A48B55003240CC /* Assets.xcassets in Resources */,
 				F26F295127A48B54003240CC /* Main.storyboard in Resources */,
@@ -134,23 +263,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F25B132D27C95F6B00DE6F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25B133427C95F6C00DE6F22 /* Habits_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F26F294227A48B54003240CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F268BD5327AD917800049D54 /* HabitsStore.swift in Sources */,
 				F26F294E27A48B54003240CC /* ViewController.swift in Sources */,
+				F268BD5727ADBA8400049D54 /* HabitCollectionViewCell.swift in Sources */,
+				F29D3EC227B43DFB0061D278 /* TestFile.swift in Sources */,
+				F26F296327A5DE3C003240CC /* HabitViewController.swift in Sources */,
 				F26F294A27A48B54003240CC /* AppDelegate.swift in Sources */,
 				F26F294C27A48B54003240CC /* SceneDelegate.swift in Sources */,
+				F262D57D27B684E0007466BF /* HabitDetailsViewCell.swift in Sources */,
+				F26F295E27A48BFB003240CC /* HabitsViewController.swift in Sources */,
+				F268BD5527ADBA7200049D54 /* ProgressCollectionViewCell.swift in Sources */,
+				F28D2B2C27B5A25D0015585E /* Extensions.swift in Sources */,
+				F262D57B27B5A85E007466BF /* HabitDetailsViewController.swift in Sources */,
+				F26F296027A48C74003240CC /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F25B133627C95F6C00DE6F22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26F294527A48B54003240CC /* Habits Tracker */;
+			targetProxy = F25B133527C95F6C00DE6F22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F26F294F27A48B54003240CC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F26F295027A48B54003240CC /* Base */,
+				F21A333B27CE82A600216D46 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +315,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F26F295527A48B55003240CC /* Base */,
+				F21A333C27CE82A600216D46 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,10 +323,57 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F25B133727C95F6C00DE6F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UYTT7WM7QX;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BELIEVE.Habits-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Habits Tracker.app/Habits Tracker";
+			};
+			name = Debug;
+		};
+		F25B133827C95F6C00DE6F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UYTT7WM7QX;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BELIEVE.Habits-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Habits Tracker.app/Habits Tracker";
+			};
+			name = Release;
+		};
 		F26F295827A48B55003240CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -231,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -292,9 +497,9 @@
 				DEVELOPMENT_TEAM = UYTT7WM7QX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Habits Tracker/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MyHabits;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,9 +525,9 @@
 				DEVELOPMENT_TEAM = UYTT7WM7QX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Habits Tracker/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MyHabits;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -341,6 +546,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F25B133927C95F6C00DE6F22 /* Build configuration list for PBXNativeTarget "Habits TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25B133727C95F6C00DE6F22 /* Debug */,
+				F25B133827C95F6C00DE6F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F26F294127A48B53003240CC /* Build configuration list for PBXProject "Habits Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
